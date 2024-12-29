@@ -9,15 +9,15 @@
 git clone https://github.com/AhmedElawady74/Test-case.git
  ```
  ```
-      cd Test-case/frontend
+ cd Test-case/frontend
  ```
 3. **Установка зависимостей**
  ```
-      npm install
+ npm install
  ```
 5. **Запуск проекта**
  ```
-      npm start
+ npm start
  ```
 ## Возможности
 - Интерактивный пользовательский интерфейс
