@@ -6,12 +6,13 @@
 ## Установка и запуск
 1. **Клонирование репозитория**
 git clone https://github.com/AhmedElawady74/Test-case.git
+
 cd Test-case/frontend
 
-2. **Установка зависимостей**
+3. **Установка зависимостей**
 npm install
 
-3. **Запуск проекта**
+4. **Запуск проекта**
 npm start
 
 ## Возможности
