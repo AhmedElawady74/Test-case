@@ -10,14 +10,14 @@ function App() {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
-    setIsLoggedIn(!!token); // تحديث حالة تسجيل الدخول بناءً على وجود التوكن
+    setIsLoggedIn(!!token); // Обновлять статус входа в зависимости от наличия токена
   }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("username");
     setIsLoggedIn(false);
-    window.location.href = "/login"; // إعادة التوجيه إلى صفحة تسجيل الدخول
+    window.location.href = "/login"; //Перенаправление на страницу входа
   };
 
   return (
