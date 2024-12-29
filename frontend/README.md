@@ -1,43 +1,24 @@
-# Backend
+# Frontend
 
 ## Описание проекта
-Это backend-часть приложения, предоставляющая API для работы с данными. Базируется на Django и Django REST Framework
+Это frontend-часть приложения, отвечающая за пользовательский интерфейс на основе ReactJS. Она взаимодействует с backend через API.
 
 ## Установка и запуск
 1. **Клонирование репозитория**
 git clone https://github.com/AhmedElawady74/Test-case.git
-cd Test-case/backend
+cd Test-case/frontend
 
-2. **Создание и активация виртуального окружения**
-- Для Windows:
-  ```
-  python -m venv env
-  env\Scripts\activate
-  ```
-- Для Linux/MacOS:
-  ```
-  python3 -m venv env
-  source env/bin/activate
-  ```
+2. **Установка зависимостей**
+npm install
 
-3. **Установка зависимостей**
-pip install -r requirements.txt
-
-4. **Инициализация базы данных**
-python manage.py makemigrations
-python manage.py migrate
-
-5. **Создание учетной записи администратора**
-python manage.py createsuperuser
-
-6. **Запуск сервера**
-python manage.py runserver
+3. **Запуск проекта**
+npm start
 
 ## Возможности
-- Реализация CRUD-операций для работы с данными
-- Аутентификация с использованием JWT
-- Организованная структура проекта для удобства разработки
+- Интерактивный пользовательский интерфейс.
+- Полная интеграция с backend через API.
+- Простая стилизация с использованием CSS и/или Bootstrap.
 
 ## Примечания
-- Убедитесь, что все зависимости установлены и совместимы
-- При необходимости обновите настройки среды
+- Убедитесь, что сервер backend запущен перед запуском frontend.
+- При необходимости можно изменить файл `src/config.js` для обновления API-адреса.
